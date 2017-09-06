@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PedidosISIS/AppDelegate.swift"
+            timestampString = "526392069.752228"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PedidosISIS.AppDelegate.__deallocating_deinit"
+                  moduleName = "PedidosISIS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Camilo/GitLab/PedidosISIS/PedidosISIS/AppDelegate.swift"
+                  timestampString = "526401859.682631"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PedidosISIS.AppDelegate.init () -&gt; PedidosISIS.AppDelegate"
+                  moduleName = "PedidosISIS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Camilo/GitLab/PedidosISIS/PedidosISIS/AppDelegate.swift"
+                  timestampString = "526401859.685748"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PedidosISIS.AppDelegate.__allocating_init () -&gt; PedidosISIS.AppDelegate"
+                  moduleName = "PedidosISIS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Camilo/GitLab/PedidosISIS/PedidosISIS/AppDelegate.swift"
+                  timestampString = "526401859.689023"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "PedidosISIS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Camilo/GitLab/PedidosISIS/PedidosISIS/AppDelegate.swift"
+                  timestampString = "526401859.692091"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PedidosISIS/ViewController.swift"
+            timestampString = "526401858.576391"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -14,6 +14,7 @@
 		9A2EB61D1F6018200078F4C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2EB61B1F6018200078F4C6 /* LaunchScreen.storyboard */; };
 		9A2EB6281F6018200078F4C6 /* PedidosISISTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EB6271F6018200078F4C6 /* PedidosISISTests.swift */; };
 		9A2EB6331F6018200078F4C6 /* PedidosISISUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EB6321F6018200078F4C6 /* PedidosISISUITests.swift */; };
+		9A2EB6411F603C430078F4C6 /* DetallePlatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EB6401F603C430078F4C6 /* DetallePlatoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9A2EB62E1F6018200078F4C6 /* PedidosISISUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedidosISISUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2EB6321F6018200078F4C6 /* PedidosISISUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosISISUITests.swift; sourceTree = "<group>"; };
 		9A2EB6341F6018200078F4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A2EB6401F603C430078F4C6 /* DetallePlatoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetallePlatoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				9A2EB6121F6018200078F4C6 /* AppDelegate.swift */,
+				9A2EB6401F603C430078F4C6 /* DetallePlatoViewController.swift */,
 				9A2EB6141F6018200078F4C6 /* ViewController.swift */,
-				9A2EB6161F6018200078F4C6 /* Main.storyboard */,
 				9A2EB6191F6018200078F4C6 /* Assets.xcassets */,
+				9A2EB6161F6018200078F4C6 /* Main.storyboard */,
 				9A2EB61B1F6018200078F4C6 /* LaunchScreen.storyboard */,
 				9A2EB61E1F6018200078F4C6 /* Info.plist */,
 			);
@@ -193,7 +196,7 @@
 				TargetAttributes = {
 					9A2EB60E1F6018200078F4C6 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					9A2EB6221F6018200078F4C6 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -261,6 +264,7 @@
 			files = (
 				9A2EB6151F6018200078F4C6 /* ViewController.swift in Sources */,
 				9A2EB6131F6018200078F4C6 /* AppDelegate.swift in Sources */,
+				9A2EB6411F603C430078F4C6 /* DetallePlatoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PedidosISIS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isis3510.PedidosISIS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,10 +433,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PedidosISIS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isis3510.PedidosISIS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
