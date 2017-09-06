@@ -517,6 +517,7 @@
 				9A2EB6391F6018200078F4C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A2EB63A1F6018200078F4C6 /* Build configuration list for PBXNativeTarget "PedidosISISTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +526,7 @@
 				9A2EB63C1F6018200078F4C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A2EB63D1F6018200078F4C6 /* Build configuration list for PBXNativeTarget "PedidosISISUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +535,7 @@
 				9A2EB63F1F6018200078F4C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     
     @IBOutlet weak var platosTableView: UITableView!
@@ -46,15 +46,14 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         }
     }
     
-    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
         
         print("Se selecciona una celda en la posición: \(indexPath.row)")
         
         self.performSegue(withIdentifier: "GoToDetallePlato", sender: arregloPLatos[indexPath.row])
         
-        tableView.deselectRow(at: indexPath, animated: true)
     }
-    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return arregloPLatos.count
